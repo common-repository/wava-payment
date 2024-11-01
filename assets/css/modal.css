@@ -1,0 +1,488 @@
+/*******MODAL  CSS ********/
+.wava-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999999;
+  /*padding-top: 45px;*/
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 0.5s;
+}
+
+/* Modal Content */
+.modal-content1 {
+  position:relative;	
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefefe;
+  margin: auto;  
+  border: 1px solid #888;
+  width: 100%;
+  height: 100%;
+  /*border-radius: 10px 10px 10px 10px;*/
+  min-width: 510px;  
+}
+.modal-help-content {
+  background-color: #fefefe;
+  margin: 80px auto;
+  padding: 20px;
+  border: 1px solid #888;  
+  height: 650px;
+  border-radius: 32px;  
+}
+
+/* Iframe */
+.wava-modal-iframe{
+  border:none;
+} 
+
+/* The Close Button */
+.wava_modal_close {
+  position: absolute;
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.wava_modal_close:hover,
+.wava_modal_close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+span.wava_modal_close {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 20px;
+    top: 10px;
+}
+
+.wava_button_container {
+  position: relative;
+  border: 3px solid rgba(131, 131, 131, 0.3);
+  border-radius: 12px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 8px;
+}
+
+.wava_button_container_legend {
+  margin: auto;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 0 8px;
+}
+
+.wava_button_container_button {
+padding: 5px;
+  background-color: #9DEA6C;
+  position: relative;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.wava_button_container_button_text {
+  color: #191a1d;
+  font-family: sans-serif;
+  position: relative;
+  font-size: 14px;
+  padding-right: 6px;
+}
+
+.wava_button_container_button_logo {
+  width: 45px;
+  height: 16px;
+  position: relative;
+}
+
+.wava_button_container_description {
+  font-family: sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+.wava_button_container_description_text {
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+  font-size: 14px;
+}
+
+.wava_button_container_description_link {
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .modal-content1 {
+      width: 100%;
+      height: 100%;
+      min-width: 10px;
+  }
+
+  .modal {
+      padding-top: 0px;
+  }
+}
+
+.wava_help_container {
+  position: absolute;
+  width: 379px;
+  height: 800px;
+  padding: 20px
+}
+
+.wava_help_container_heading_logo {
+  height: 32px !important;
+  position: relative;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.wava_help_container_heading {
+  position: flex;
+  align-items: center;
+}
+
+.wava_help_container_heading_title {
+  color: #191a1d;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.wava_help_container_heading_description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #637381
+}
+
+.wava_help_container_list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  gap: 12px;
+}
+
+.wava_help_container_list_item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.wava_help_container_list_item_text {
+  float: right;
+  width: 320px;
+}
+
+.wava_help_container_list_item_text_title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 4px;
+  color: #191a1d;
+}
+
+.wava_help_container_list_item_text_description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #637381
+}
+
+.wava_help_container_button {
+  background-color: #9DEA6C;
+  width: 379px;
+  height: 48px;
+  position: relative;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wava_help_container_button_close {
+  color: #191a1d;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.wava_help_close {
+  color: #808080;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.wava_loading_container {
+  display: flex;
+  align-items: center;
+  flex:1;
+  padding: 20px;
+}
+
+.wava_loading_container_heading {
+  display: grid;
+  place-items: center;
+}
+
+.wava_loading_container_heading_title {
+  color: #191a1d;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.wava_loading_container_heading_description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #637381
+}
+
+
+/****MODAL LOADING CSS***/
+.loaderContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.spinnerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem
+}
+.statusText {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #637381;
+  text-align: center;
+}
+.loaderContainer h3 {
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #2B2D42;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.featuresContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.featuresCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 18rem;
+  gap: 1rem;
+}
+.card-image {
+  display: block;
+  max-width: 100%;
+  width: 68px;
+  height: 68px;
+  border-radius: 20px;
+  background-color: burlywood;
+}
+.card-text {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #2B2D42;
+}
+/* Spinner CSS */
+.pure-material-progress-circular {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 50%;
+  padding: 0.25em;
+  width: 3em;
+  height: 3em;
+  color: #9DEA6C;
+  background-color: transparent;
+  font-size: 16px;
+  overflow: hidden;
+}
+.pure-material-progress-circular::-webkit-progress-bar {
+  background-color: transparent;
+}
+.pure-material-progress-circular:indeterminate {
+  -webkit-mask-image: linear-gradient(transparent 50%, black 50%), linear-gradient(to right, transparent 50%, black 50%);
+  mask-image: linear-gradient(transparent 50%, black 50%), linear-gradient(to right, transparent 50%, black 50%);
+  animation: pure-material-progress-circular 6s infinite cubic-bezier(0.3, 0.6, 1, 1);
+}
+:-ms-lang(x), .pure-material-progress-circular:indeterminate {
+  animation: none;
+}
+.pure-material-progress-circular:indeterminate::before,
+.pure-material-progress-circular:indeterminate::-webkit-progress-value {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 0.25em;
+  border: solid 0.25em transparent;
+  border-top-color: currentColor;
+  border-radius: 50%;
+  width: 100% !important;
+  height: 100%;
+  background-color: transparent;
+  animation: pure-material-progress-circular-pseudo 0.75s infinite linear alternate;
+}
+.pure-material-progress-circular:indeterminate::-moz-progress-bar {
+  box-sizing: border-box;
+  border: solid 0.25em transparent;
+  border-top-color: currentColor;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  animation: pure-material-progress-circular-pseudo 0.75s infinite linear alternate;
+}
+.pure-material-progress-circular:indeterminate::-ms-fill {
+  animation-name: -ms-ring;
+}
+@keyframes pure-material-progress-circular {
+  0% {transform: rotate(0deg);}
+  12.5% {transform: rotate(180deg); animation-timing-function: linear;}
+  25% {transform: rotate(630deg);}
+  37.5% {transform: rotate(810deg); animation-timing-function: linear;}
+  50% {transform: rotate(1260deg);}
+  62.5% {transform: rotate(1440deg); animation-timing-function: linear;}
+  75% {transform: rotate(1890deg);}
+  87.5% {transform: rotate(2070deg); animation-timing-function: linear;}
+  100% {transform: rotate(2520deg);}
+}
+@keyframes pure-material-progress-circular-pseudo {
+  0% {transform: rotate(-30deg);}
+  29.4% {border-left-color: transparent;}
+  29.41% {border-left-color: currentColor;}
+  64.7% {border-bottom-color: transparent;}
+  64.71% {border-bottom-color: currentColor;}
+  100% {border-left-color: currentColor; border-bottom-color: currentColor;transform: rotate(225deg);}
+}
+/* Text media queries */
+@media (max-width: 900px) {
+  h3 {
+    font-size: 1.875rem;
+  }
+}
+@media (max-width: 600px) {
+  h3 {
+    font-size: 1.625rem;
+  }
+}
+/***Footer***/
+.wava_footer {
+  font-size: 0.75rem;
+    background-color: #c9c9c9;
+    display: flex;
+    margin: auto;
+    padding: 5px;
+    align-items: center;
+    width: 1080px;;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    border: 1px solid #c9c9c9;
+    border-radius: 0px 0px 32px 32px;
+}
+.wava_footer a, .wava_footer span{
+  color: #888;
+  margin: 5px;
+}
+.wava_footer a:hover{
+  color:#383838;
+}
+.wava_footer a:visited{
+  color:#888;
+}
+.wava_footer p{
+  cursor: pointer;
+  font-size: 0.75rem;
+  color: #888;
+  margin: 5px;
+}
+.wava_footer p:hover{
+  color:#383838;
+}
+.wava_footer p:visited{
+  color:#888;
+}
+.wava_secure_payment {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.wava_brand_svg{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Cambia el color de fondo y la letra para la etiqueta "Cancelado" */
+.order-status.status-wava-cancelled {
+  background-color: #d63638!important;
+  color: #fff!important;
+}
+
+/* Cambia el color de fondo y la letra para la etiqueta "Confirmado" */
+.order-status.status-wava-confirm {
+  background-color: #9DEA6C!important;
+  color: #022219!important;
+}
+
+/* Cambia el color de fondo y la letra para la etiqueta "Pendiente" */
+.order-status.status-wava-pending {
+   background-color: #ffba00!important;
+  color: #515151!important;
+}
+
+/* Cambia el color de fondo y la letra para la etiqueta "Rechazado" */
+.order-status.status-wava-rejected {
+  background-color: #d63638!important;
+  color: #fff!important;
+}

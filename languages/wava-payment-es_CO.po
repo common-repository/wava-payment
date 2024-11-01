@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wava Payment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-15 17:50+0000\n"
+"PO-Revision-Date: 2024-02-15 18:05+0000\n"
+"Last-Translator: \n"
+"Language-Team: Español de Colombia\n"
+"Language: es-CO\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3\n"
+"X-Domain: wava-payment"
+
+#: Wava_Payment.php:457
+msgid "Activar Wava como procesador de pago"
+msgstr "Activar Wava como procesador de pago"
+
+#: Wava_Payment.php:521
+msgid ""
+"Compra seguro y fácil con Wava. Paga con tu tarjeta de crédito, Nequi o "
+"Daviplata."
+msgstr ""
+"Compra seguro y fácil con Wava. Paga con tu tarjeta de crédito, Nequi o "
+"Daviplata."
+
+#: Wava_Payment.php:518
+msgid "Descripción"
+msgstr "Descripción"
+
+#: Wava_Payment.php:520
+msgid "Descripción del método de pago que el cliente verá en su pago."
+msgstr "Descripción del método de pago que el cliente verá en su pago."
+
+#: Wava_Payment.php:504
+msgid "Elige una imagen para mostrar"
+msgstr "Elige una imagen para mostrar"
+
+#: Wava_Payment.php:535
+msgid "Enlace de la página a la que se redirige al cliente luego del pago."
+msgstr "Enlace de la página a la que se redirige al cliente luego del pago."
+
+#: Wava_Payment.php:494
+msgid "Estado del Pedido al confirmarse el pago"
+msgstr "Estado del Pedido al confirmarse el pago"
+
+#: Wava_Payment.php:478
+msgid "Estado del Pedido al crearse la orden"
+msgstr "Estado del Pedido al crearse la orden"
+
+#: Wava_Payment.php:486
+msgid "Estado del Pedido al rechazar o cancelar el pago"
+msgstr "Estado del Pedido al rechazar o cancelar el pago"
+
+#: Wava_Payment.php:463
+msgid ""
+"Esto controla el texto que ve el usuario durante el pago. Texto opcional"
+msgstr ""
+"Esto controla el texto que ve el usuario durante el pago. Texto opcional"
+
+#. URI of the plugin
+msgid "https://wava.co"
+msgstr "https://wava.co"
+
+#. Author URI of the plugin
+msgid "https://wava.co/"
+msgstr "https://wava.co/"
+
+#: Wava_Payment.php:525
+msgid "Instrucciones"
+msgstr "Instrucciones"
+
+#: Wava_Payment.php:527
+msgid ""
+"Instrucciones que se agregarán a la página de agradecimiento y a los correos "
+"electrónicos."
+msgstr ""
+"Instrucciones que se agregarán a la página de agradecimiento y a los correos "
+"electrónicos."
+
+#: Wava_Payment.php:502
+msgid "Logotipos"
+msgstr "Logotipos"
+
+#: Wava_Payment.php:468
+msgid "Merchant Key"
+msgstr "Merchant Key"
+
+#: Wava_Payment.php:470
+msgid "Merchant Key tu cuenta WAVA"
+msgstr "Merchant Key tu cuenta WAVA"
+
+#: Wava_Payment.php:432
+msgid "Pagar"
+msgstr "Pagar"
+
+#: Wava_Payment.php:532
+msgid "Página de Confirmación"
+msgstr "Página de Confirmación"
+
+#: Wava_Payment.php:431
+msgid "Recibe pagos a través de Nequi o Daviplata (Próximamente)"
+msgstr "Recibe pagos a través de Nequi o Daviplata (Próximamente)"
+
+#: Wava_Payment.php:528
+msgid "Recibirás una notificación en tu app para confirmar tu pago"
+msgstr "Recibirás una notificación en tu app para confirmar tu pago"
+
+#: Wava_Payment.php:536
+msgid "Seleccionar página"
+msgstr "Seleccionar página"
+
+#: Wava_Payment.php:482
+msgid ""
+"Seleccione el estado del pedido que se aplicará a la hora de aceptar la orden"
+msgstr ""
+"Seleccione el estado del pedido que se aplicará a la hora de aceptar la orden"
+
+#: Wava_Payment.php:498
+msgid ""
+"Seleccione el estado del pedido que se aplicará luego de confirmar el estado "
+"de pago"
+msgstr ""
+"Seleccione el estado del pedido que se aplicará luego de confirmar el estado "
+"de pago"
+
+#: Wava_Payment.php:490
+msgid ""
+"Seleccione el estado del pedido que se aplicará luego de rechazar o cancelar "
+"el pago"
+msgstr ""
+"Seleccione el estado del pedido que se aplicará luego de rechazar o cancelar "
+"el pago"
+
+#: Wava_Payment.php:510
+msgid "Sin Logo"
+msgstr "Sin Logo"
+
+#: Wava_Payment.php:461
+msgid "Titulo"
+msgstr "Titulo"
+
+#: Wava_Payment.php:427
+msgid "Wava"
+msgstr "Wava"
+
+#: Wava_Payment.php:684
+msgid "Wava Pago Cancelado"
+msgstr "Wava Pago Cancelado"
+
+#: Wava_Payment.php:683
+msgid "Wava Pago Confirmado"
+msgstr "Wava Pago Confirmado"
+
+#: Wava_Payment.php:685
+msgid "Wava Pago Pendiente"
+msgstr "Wava Pago Pendiente"
+
+#: Wava_Payment.php:686
+msgid "Wava Pago Rechazado"
+msgstr "Wava Pago Rechazado"
+
+#. Name of the plugin
+#: Wava_Payment.php:430
+msgid "Wava Payment"
+msgstr "Wava Payment"
+
+#. Description of the plugin
+msgid "Wava Payment for Woocommerce"
+msgstr "Wava Payment for Woocommerce"
+
+#. Author of the plugin
+msgid "Wava Technologies"
+msgstr "Wava Technologies"

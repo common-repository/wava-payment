@@ -1,0 +1,144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wava One Click Checkout\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-03 21:47+0000\n"
+"PO-Revision-Date: 2023-05-03 22:10+0000\n"
+"Last-Translator: Diego Puerto\n"
+"Language-Team: English (United States)\n"
+"Language: en-US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: wava-oneclick-checkout"
+
+#: templates/popup.php:91
+msgid ""
+"Completa tus datos para una próxima compra más rápida y\n"
+"                    realízalas en un solo clic y de forma fácil y segura."
+msgstr ""
+"Complete your information for a faster and faster next purchase\n"
+"                      perform them in a single click and easily and safely."
+
+#: templates/wava_helper.php:44
+msgid ""
+"Completa tus datos personales,\n"
+"                            dirección y\n"
+"                            forma de pago para una próxima\n"
+"                            compra más rápida."
+msgstr ""
+"Complete your personal data,\n"
+"                             direction and\n"
+"                             payment method for a next\n"
+"                             faster purchase."
+
+#: templates/wava_helper.php:43
+msgid "Completar tus datos personales"
+msgstr "Complete your personal data"
+
+#: templates/wava_helper.php:57
+msgid "Compra seguro y con un clic"
+msgstr "Buy safely and with one click"
+
+#: templates/wava_helper.php:58
+msgid ""
+"Compra tus productos favoritos de uno\n"
+"                            o\n"
+"                            distintos comercios en un solo clic\n"
+"                            de manera segura."
+msgstr ""
+"Buy your favorite products from one\n"
+"                             either\n"
+"                             different shops in one click\n"
+"                             in a safe way."
+
+#: buttons/wava-order-cart-page.php:11 
+#: buttons/wava-order-single-product.php:19 
+#: buttons/wava-order-checkout-page.php:12
+msgid "Comprar Con"
+msgstr "Buy With"
+
+#: buttons/wava-order-cart-page.php:21 
+#: buttons/wava-order-single-product.php:29 
+#: buttons/wava-order-checkout-page.php:22
+msgid "Comprar productos de varios comercios de manera rápida y sencilla. "
+msgstr "Buy products from various stores quickly and easily."
+
+#. Author URI of the plugin
+msgid "https://wava.co/"
+msgstr "https://wava.co/"
+
+#. URI of the plugin
+msgid "https://wava.co/woocommerce"
+msgstr "https://wava.co/woocommerce"
+
+#: templates/wava_helper.php:30
+msgid ""
+"Inicia sesión o regístrate en Wava\n"
+"                            para\n"
+"                            reconocerte y guartar tus favoritos."
+msgstr ""
+"Sign in or sign up to Wava\n"
+"                              for\n"
+"                              recognize you and save your favourites."
+
+#: templates/wava_helper.php:29
+msgid "Iniciar sesión en Wava"
+msgstr "Sign in to Wava"
+
+#: templates/popup.php:94
+msgid "Por favor espera. Estamos preparando todo..."
+msgstr "Please wait. We are preparing everything..."
+
+#: templates/wava_helper.php:18
+msgid "Simplifica tus compras con nuestra plataforma de pago."
+msgstr "Simplify your purchases with our payment platform."
+
+#. Name of the plugin
+msgid "Wava One Click Checkout"
+msgstr "Wava One Click Checkout"
+
+#. Description of the plugin
+msgid "Wava One Click Checkout for Woocommerce"
+msgstr "Wava One Click Checkout for Woocommerce"
+
+#. Author of the plugin
+msgid "Wava Technologies"
+msgstr "Wava Technologies"
+
+#: templates/wava_helper.php:19
+msgid ""
+"Ya no es necesario ingresar tus datos cada vez que compres, simplemente "
+"guárdalos una vez y haz tus compras con un solo clic."
+msgstr ""
+"It is no longer necessary to enter your data every time you buy, just save "
+"it once and make your purchases with a single click."
+
+#: templates/wava_helper.php:66
+msgid "¡Entendido!"
+msgstr "¡Got It!"
+
+#: buttons/wava-order-cart-page.php:21 
+#: buttons/wava-order-single-product.php:29 
+#: buttons/wava-order-checkout-page.php:22
+msgid "¿Cómo funciona Wava?"
+msgstr "How does Wava work?"
+
+#: admin/wava-admin-page.php:105
+msgid "¿Mostrar el boton de Wava en la página de la tienda?"
+msgstr "Display Wava Checkout on Shop Page?"
+
+#: admin/wava-admin-page.php:89
+msgid "¿Mostrar el boton de Wava en la página del carrito?"
+msgstr "Display Wava Checkout on Cart Page?"
+
+#: admin/wava-admin-page.php:97
+msgid "¿Mostrar el boton de Wava en la página del Checkout?"
+msgstr "Display Wava Checkout on Checkout Page?"
+
+#: admin/wava-admin-page.php:81
+msgid "¿Mostrar el boton de Wava en la página individual del producto?"
+msgstr "Display Wava Checkout on Product Page?"
